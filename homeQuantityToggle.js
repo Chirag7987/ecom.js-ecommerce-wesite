@@ -23,4 +23,5 @@ export const homeQuantityToggle = (event,id,stock) =>{
     console.log(quantity);
     productQuantity.setAttribute("data-quantity", quantity.toString());
     return quantity;
+    
 };
